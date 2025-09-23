@@ -1,4 +1,8 @@
-# Luna
+<p align="center">
+<img width="769" height="763" alt="luna_l" src="https://github.com/user-attachments/assets/607938dd-afd7-4e0a-b5f1-1023f6e1da56#gh-light-mode-only" />
+<img width="769" height="763" alt="luna_d" src="https://github.com/user-attachments/assets/d1839a18-f9f9-4d59-873c-d2ae058a484c#gh-dark-mode-only" />
+    <h2 align="center">Luna</h2>
+</p>
 
 A cross-platform fully-local desktop voice assistant built with Tauri.
 
@@ -12,6 +16,10 @@ A cross-platform fully-local desktop voice assistant built with Tauri.
 - **Local Processing** - All AI processing runs locally for privacy
 
 ## Architecture
+
+<img width="3841" height="2161" alt="Luna Architecture Dark" src="https://github.com/user-attachments/assets/ef80b492-6698-4852-88a2-4efac236fb3d#gh-dark-mode-only" />
+
+<img width="3841" height="2161" alt="Luna Architecture Light" src="https://github.com/user-attachments/assets/1e101cf6-48d1-402a-9579-6833e1d57bd6#gh-light-mode-only" />
 
 **Three-tier architecture:**
 - **Frontend** (TypeScript/HTML) - Audio recording, WebSocket communication, UI animations
