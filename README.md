@@ -1,6 +1,6 @@
 # Luna
 
-A cross-platform desktop voice assistant built with Tauri, combining speech recognition, AI chat, and text-to-speech in a modern interface.
+A cross-platform fully-local desktop voice assistant built with Tauri.
 
 ## Features
 
