@@ -1,0 +1,42 @@
+{
+  "name": "luna-tauri",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "dev:api": "python3 src-python/main.py",
+    "dev:all": "pnpm dev",
+    "build": "tsc && vite build",
+    "build:sidecar": "python build.py",
+    "build:app": "cd src-tauri && pnpm build",
+    "build:all": "pnpm build:sidecar && pnpm build:app",
+    "test": "vitest",
+    "test:run": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "test:ui": "vitest --ui",
+    "test:build": "python test_build.py",
+    "preview": "vite preview",
+    "tauri": "tauri",
+    "build:sidecar-windows": "pyinstaller -c -F --clean --name main-x86_64-pc-windows-msvc --distpath src-tauri/binaries src-python/main.py",
+    "build:sidecar-darwin-arm": "pyinstaller -c -F --clean --name main-aarch64-apple-darwin --distpath src-tauri/binaries src-python/main.py",
+    "build:sidecar-darwin-intel": "python3 -m PyInstaller -c -F --clean --name main-x86_64-apple-darwin --distpath src-tauri/binaries src-python/main.py",
+    "build:sidecar-linux": "pyinstaller -c -F --clean --name main-x86_64-unknown-linux-gnu --distpath src-tauri/binaries src-python/main.py"
+  },
+  "dependencies": {
+    "@georgedoescode/spline": "^1.0.1",
+    "@tauri-apps/api": "^2.8.0",
+    "@tauri-apps/plugin-opener": "^2.5.0",
+    "@tauri-apps/plugin-shell": "~2.3.1",
+    "simplex-noise": "^4.0.3"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2.8.4",
+    "@vitest/coverage-v8": "^3.2.4",
+    "@vitest/ui": "^3.2.4",
+    "happy-dom": "^15.11.7",
+    "typescript": "~5.6.3",
+    "vite": "^6.3.6",
+    "vitest": "^3.2.4"
+  }
+}
