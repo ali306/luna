@@ -1,6 +1,6 @@
 <p align="center">
-<img width="769" height="763" alt="luna_l" src="https://github.com/user-attachments/assets/607938dd-afd7-4e0a-b5f1-1023f6e1da56#gh-light-mode-only" />
-<img width="769" height="763" alt="luna_d" src="https://github.com/user-attachments/assets/d1839a18-f9f9-4d59-873c-d2ae058a484c#gh-dark-mode-only" />
+<img height="140" alt="luna_l" src="https://github.com/user-attachments/assets/607938dd-afd7-4e0a-b5f1-1023f6e1da56#gh-light-mode-only" />
+<img height="140" alt="luna_d" src="https://github.com/user-attachments/assets/d1839a18-f9f9-4d59-873c-d2ae058a484c#gh-dark-mode-only" />
     <h2 align="center">Luna</h2>
 </p>
 
