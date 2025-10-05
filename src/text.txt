@@ -1,0 +1,31 @@
+120 INFO: PyInstaller: 6.15.0, contrib hooks: 2025.8
+120 INFO: Python: 3.11.12
+130 INFO: Platform: macOS-15.6-x86_64-i386-64bit
+130 INFO: Python environment: .venv
+130 INFO: wrote tauri-app/src/main.spec
+135 INFO: Module search paths (PYTHONPATH):
+['/Users/standard/.local/share/uv/python/cpython-3.11.12-macos-x86_64-none/lib/python311.zip',
+ '/Users/standard/.local/share/uv/python/cpython-3.11.12-macos-x86_64-none/lib/python3.11',
+ '/Users/standard/.local/share/uv/python/cpython-3.11.12-macos-x86_64-none/lib/python3.11/lib-dynload',
+ '.venv/lib/python3.11/site-packages',
+ '.venv/lib/python3.11/site-packages/setuptools/_vendor',
+ 'tauri-app/src']
+418 INFO: checking Analysis
+655 INFO: checking PYZ
+775 INFO: EXE target arch: x86_64
+775 INFO: Code signing identity: None
+838 INFO: checking PKG
+910 INFO: Bootloader .venv/lib/python3.11/site-packages/PyInstaller/bootloader/Darwin-64bit/run
+911 INFO: checking EXE
+961 INFO: Rebuilding EXE-00.toc because main missing
+962 INFO: Building EXE from EXE-00.toc
+962 INFO: Copying bootloader EXE to tauri-app/src/dist/main
+962 INFO: Converting EXE to target arch (x86_64)
+990 INFO: Removing signature(s) from EXE
+1016 INFO: Modifying Mach-O image UUID(s) in EXE
+1455 INFO: Appending PKG archive to EXE
+1684 INFO: Fixing EXE headers for code signing
+1699 INFO: Rewriting the executable's macOS SDK version (14.5.0) to match the SDK version of the Python library (14.2.0) in order to avoid inconsistent behavior and potential UI issues in the frozen application.
+1700 INFO: Re-signing the EXE
+3457 INFO: Building EXE from EXE-00.toc completed successfully.
+3550 INFO: Build complete! The results are available in: tauri-app/src/dist
