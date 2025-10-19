@@ -1,0 +1,38 @@
+{
+  "name": "luna-tauri",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev:all": "pnpm dev",
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "build:app": "pnpm tauri build --bundles app",
+    "test": "vitest",
+    "test:run": "vitest run",
+    "test:coverage": "vitest run --coverage",
+    "test:ui": "vitest --ui",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "@georgedoescode/spline": "^1.0.1",
+    "@tauri-apps/api": "^2.8.0",
+    "@tauri-apps/plugin-opener": "^2.5.0",
+    "@tauri-apps/plugin-shell": "~2.3.1",
+    "simplex-noise": "^4.0.3",
+    "tinykeys": "^3.0.0"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^6.2.1",
+    "@tauri-apps/cli": "^2.8.4",
+    "@vitest/coverage-v8": "^3.2.4",
+    "@vitest/ui": "^3.2.4",
+    "happy-dom": "^15.11.7",
+    "svelte": "^5.39.11",
+    "svelte-check": "^4.3.3",
+    "svelte-preprocess": "^6.0.3",
+    "typescript": "~5.6.3",
+    "vite": "^6.3.6",
+    "vitest": "^3.2.4"
+  }
+}

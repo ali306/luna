@@ -1,0 +1,30 @@
+:root {
+  --halo-scale: 1;
+  --halo-brightness: 2;
+  --halo-hue: 0deg;
+  --container-size: min(90vw, 90vh, 300px);
+  --color-0: oklch(0 0 0);
+  --color-1: oklch(0.1 0 0);
+  --color-2: oklch(0.2 0 0);
+  --color-3: oklch(0.3 0 0);
+  --color-4: oklch(0.4 0 0);
+  --color-5: oklch(0.5 0 0);
+  --color-6: oklch(0.6 0 0);
+  --color-7: oklch(0.7 0 0);
+  --color-8: oklch(0.8 0 0);
+  --color-9: oklch(0.9 0 0);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  background-color: var(--color-0);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
